@@ -44,9 +44,12 @@ oder besuchen Sie unser Blog: http://textkritik.lingulab.de/category/so-funktion
 Besuchen Sie unser Blog: http://textkritik.lingulab.de/category/so-funktionierts/
 
 == Changelog ==
+= 1.0.8 =
+* Fixed Errormessage-Bug for free accounts.
 
 = 1.0.7 =
 * Updated readme.txt to match WordPress requirements
+
 
 = 1.0.6 =
 * Encoding Fixes on Soap Response in ajax_getContent
