@@ -5,33 +5,33 @@ Tags: lingulab, textkritik, SEO
 Requires at least: 2.8
 Tested up to: 2.9
 Stable tag: 1.0.7
-LinguLab Live Wordpress Plugin ermöglicht die Messung der Textqualität
+LinguLab Live Wordpress Plugin erm√∂glicht die Messung der Textqualit√§t
 
 == Description ==
 
-The LinguLab live Plugin enables you to directly check your pages and articles from WordPress. LinguLab tests the fields Readability, Web-suitability and search engine relevance. The algorithm analyzes more than 27 parameters, e. g. passive, modality, structure, keywords etc. Use the plug-in and save time in text creation, lectorate and search engine optimization (SEO)Mit dem Plugin für LinguLab live haben Sie die Möglichkeit, Ihre Seiten und Artikel direkt aus Wordpress zu prüfen. LinguLab testet in den Messfeldern Textverständlichkeit, Web-Tauglichkeit und Suchmaschinenrelevanz. Es werden mehr als 27 Parameter untersucht, z. B. Passivkonstruktionen, Modalität, Worthäufigkeit, Strukturierung, Keywords uvm. Nutzen Sie das Plugin und sparen Sie Zeit bei der Texterstellung, im Lektorat und bei der Optimierung für Suchmaschinen (SEO).
+The LinguLab live Plugin enables you to directly check your pages and articles from WordPress. LinguLab tests the fields Readability, Web-suitability and search engine relevance. The algorithm analyzes more than 27 parameters, e. g. passive, modality, structure, keywords etc. Use the plug-in and save time in text creation, lectorate and search engine optimization (SEO)Mit dem Plugin f√ºr LinguLab live haben Sie die M√∂glichkeit, Ihre Seiten und Artikel direkt aus Wordpress zu pr√ºfen. LinguLab testet in den Messfeldern Textverst√§ndlichkeit, Web-Tauglichkeit und Suchmaschinenrelevanz. Es werden mehr als 27 Parameter untersucht, z. B. Passivkonstruktionen, Modalit√§t, Worth√§ufigkeit, Strukturierung, Keywords uvm. Nutzen Sie das Plugin und sparen Sie Zeit bei der Texterstellung, im Lektorat und bei der Optimierung f√ºr Suchmaschinen (SEO).
 
 == Installation ==
 
-Installieren Sie das Plug-in über die Funktion "Plugins - Installieren" in WordPress. Geben Sie danach auf Ihrer Profilseite Benutzername und Kennwort für LinguLab live ein. Fertig.
+Installieren Sie das Plug-in √ºber die Funktion "Plugins - Installieren" in WordPress. Geben Sie danach auf Ihrer Profilseite Benutzername und Kennwort f√ºr LinguLab live ein. Fertig.
 
 Weitere Informationen: http://textkritik.lingulab.de/so-funktionierts/wordpress-plugin-installieren/
 
 
 So erstellen Sie einen Account fur LinguLab live
-Gehen Sie auf live.lingulab.de und klicken Sie auf "Weiter zur kostenlosen Registrierung". Nach Ihrer Registrierung steht Ihnen der volle Funktionsumfang von LinguLab live 30 Tage kostenlos zur Verfügung.
+Gehen Sie auf live.lingulab.de und klicken Sie auf "Weiter zur kostenlosen Registrierung". Nach Ihrer Registrierung steht Ihnen der volle Funktionsumfang von LinguLab live 30 Tage kostenlos zur Verf√ºgung.
 Danach wird Ihr Account in einen kostenlosen, werbefinanzierten Basic-Zugang umgewandelt.
 
-Sie können jederzeit über die LinguLab Website Premium-Leistungen auf monatlicher Basis erwerben.Eine Übersicht unserer Leistungen und Preise finden Sie unter http://live.lingulab.de/Public/Prices.aspx.
+Sie k√∂nnen jederzeit √ºber die LinguLab Website Premium-Leistungen auf monatlicher Basis erwerben.Eine √úbersicht unserer Leistungen und Preise finden Sie unter http://live.lingulab.de/Public/Prices.aspx.
 
-Hilfreiche Tipps zum Thema Textqualität und zur Nutzung von LinguLab Live finden Sie hier:
+Hilfreiche Tipps zum Thema Textqualit√§t und zur Nutzung von LinguLab Live finden Sie hier:
 
 Video-Anleitungen / Screencasts:
 http://textkritik.lingulab.de/category/screencasts/
 So funktioniert's / Benutzerhandbuch:
 http://textkritik.lingulab.de/category/so-funktionierts/
 
-Wir wünschen Ihnen viel Spaß mit LinguLab live.
+Wir w√ºnschen Ihnen viel Spa√ü mit LinguLab live.
 
 
 == Frequently Asked Questions ==
