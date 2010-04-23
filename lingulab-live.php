@@ -387,6 +387,9 @@ class lingulabLivePlugin
 	{
 		require 'inc/webserviceclient.php';
 		
+		$client = new lingulabLiveWebserviceClient();		
+		$configs = $client->getConfigurations();
+		
 		# get input	
         $h1         = isset($_POST['h1']) ? '<h1>' . stripslashes($_POST['h1']) . '</h1>' : '';
 		$h3         = isset($_POST['h3']) ? '<h3>' . stripslashes($_POST['h3']) . '</h3>' : '';
@@ -394,8 +397,8 @@ class lingulabLivePlugin
 		$kw1        = isset($_POST['kw1']) ? stripslashes($_POST['kw1']) : '';
 		$kw2        = isset($_POST['kw2']) ? stripslashes($_POST['kw2']) : '';
 		$kw3        = isset($_POST['kw3']) ? stripslashes($_POST['kw3']) : '';
-		$configType = isset($_POST['lingulab-mode']) ? stripslashes($_POST['lingulab-mode']) : '01_web-text_grundform.xml';
-
+		$configType = isset($_POST['lingulab-mode']) ? stripslashes($_POST['lingulab-mode']) : $configs[0]["Id"];
+		
 		$inputData = array(
 			'Text'            => $text, 
 			'ConfigurationId' => $configType,
