@@ -4,10 +4,10 @@ Plugin Name: LinguLab Live
 Plugin URI: http://www.lingulab.de
 Description: LinguLab Live Wordpress Plugin ermöglicht die Messung der Textqualität
 Author: LinguLab GmbH
-Version: 1.0.10
+Version: 1.0.11
 Author URI: http://www.lingulab.de
 Min WP Version: 2.8
-Stable tag: 1.0.10
+Stable tag: 1.0.11
 */
 /*  Copyright 2009  Oliver Storm, Tom Klingenberg
 
@@ -54,7 +54,7 @@ class lingulabLivePlugin
 	 */
 	private $_homepageUrl = 'http://textkritik.lingulab.de/'; # URI of homepage
 	
-	private $_version     = '1.0.6'; # plugin version
+	private $_version     = '1.0.11'; # plugin version
 	
 	/**
 	 * bootstrap

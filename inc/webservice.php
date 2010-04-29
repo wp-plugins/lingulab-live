@@ -124,7 +124,7 @@ class lingulabLiveWebservice
 	 */
 	public function Login($user, $pass)
 	{
-		$result = $this->_stdCall('Login', array(array('userName' => $user, 'password' => $pass)));
+		$result = $this->_stdCall('Login', array(array('userName' => $user, 'password' => $pass, 'plugInId' => '08d81e0c-9f6d-488c-b34d-447b40797561')));
 		return $result['LoginResult'];
 	}
 	

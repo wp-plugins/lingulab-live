@@ -4,7 +4,7 @@ Donate link: http://live.lingulab.de
 Tags: lingulab, textkritik, SEO
 Requires at least: 2.8
 Tested up to: 2.9.2
-Stable tag: 1.0.10
+Stable tag: 1.0.11
 LinguLab Live Wordpress Plugin ermöglicht die Messung der Textqualität
 
 == Description ==
@@ -33,7 +33,7 @@ http://textkritik.lingulab.de/category/screencasts/
 So funktioniert's / Benutzerhandbuch:
 http://textkritik.lingulab.de/category/so-funktionierts/
 
-Wir wünschen Ihnen viel Spa§ mit LinguLab live.
+Wir wünschen Ihnen viel Spass mit LinguLab live.
 
 
 == Frequently Asked Questions ==
@@ -46,6 +46,9 @@ oder besuchen Sie unser Blog: http://textkritik.lingulab.de/category/so-funktion
 Besuchen Sie unser Blog: http://textkritik.lingulab.de/category/so-funktionierts/
 
 == Changelog ==
+= 1.0.11 =
+* Added PluginId
+
 = 1.0.9 =
 * Fixed some CSS issues.
 * GetConfiguration Id from Webservice.
