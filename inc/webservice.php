@@ -24,7 +24,7 @@ class lingulabLiveWebservice
 	/*
 	 * magic numbers
 	 */
-	private $_serviceUrl  = 'http://live.lingulab.de/service/liveservice.asmx?WSDL'; # URI of webservice
+	private $_serviceUrl  = 'https://api.lingulab.net/LiveService.asmx?wsdl'; # URI of webservice
 
 	/**
 	 * soap client local instance

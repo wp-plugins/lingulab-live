@@ -4,7 +4,7 @@ Donate link: http://live.lingulab.de
 Tags: lingulab, textkritik, SEO
 Requires at least: 2.8
 Tested up to: 2.9.2
-Stable tag: 1.0.11
+Stable tag: 1.0.12
 LinguLab Live Wordpress Plugin ermöglicht die Messung der Textqualität
 
 == Description ==
@@ -17,7 +17,7 @@ Mit dem Plugin für LinguLab live haben Sie die Möglichkeit, Ihre Seiten und Ar
 
 Installieren Sie das Plug-in über die Funktion "Plugins - Installieren" in WordPress. Geben Sie danach auf Ihrer Profilseite Benutzername und Kennwort für LinguLab live ein. Fertig.
 
-Weitere Informationen: http://textkritik.lingulab.de/so-funktionierts/wordpress-plugin-installieren/
+Weitere Informationen: http://live.lingulab.de/content/deu/So-funktioniert-LinguLab/Installations-und-Bedienungsanleitungen/Installation_WordPress_Plugin.htm
 
 
 So erstellen Sie einen Account fur LinguLab live
@@ -29,25 +29,25 @@ Sie können jederzeit über die LinguLab Website Premium-Leistungen auf monatlic
 Hilfreiche Tipps zum Thema Textqualität und zur Nutzung von LinguLab Live finden Sie hier:
 
 Video-Anleitungen / Screencasts:
-http://textkritik.lingulab.de/category/screencasts/
+http://live.lingulab.de/content/deu/Screencasts/08_SEO-Suchmaschinenoptimierung.htm
 So funktioniert's / Benutzerhandbuch:
-http://textkritik.lingulab.de/category/so-funktionierts/
+http://live.lingulab.de/content/deu/So-funktioniert-LinguLab/Installations-und-Bedienungsanleitungen/Benutzerhandbuch.htm
 
 Wir wünschen Ihnen viel Spass mit LinguLab live.
 
 
 == Frequently Asked Questions ==
 Bitte laden Sie unser Benutzerhandbuch herunter:
-http://textkritik.lingulab.de/wp-content/uploads/2009/10/lingulab-live_benutzerhandbuch_v11.pdf
+http://live.lingulab.de/content/media/5102/Bedienungsanleitung%20Allgemein.pdf
 
-oder besuchen Sie unser Blog: http://textkritik.lingulab.de/category/so-funktionierts/
+oder besuchen Sie unser Blog: http://live.lingulab.de/content/deu/Blog-Neuigkeiten/Kontinuierlich-lernen-mit-LinguLab-live.htm
 
 == Screenshots == 
-Besuchen Sie unser Blog: http://textkritik.lingulab.de/category/so-funktionierts/
+Besuchen Sie unser Blog: http://live.lingulab.de/content/deu/Produkte/Plug-ins-Add-Ins/Plugin_SEO_Wordpress.htm
 
 == Changelog ==
 = 1.0.12 =
-* Webservice URL changed
+* Webservice URL changed: now supports SSL encryption (default)
 
 = 1.0.11 =
 * Added PluginId

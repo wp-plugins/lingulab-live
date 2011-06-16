@@ -7,7 +7,7 @@ Author: LinguLab GmbH
 Version: 1.0.11
 Author URI: http://www.lingulab.de
 Min WP Version: 2.8
-Stable tag: 1.0.11
+Stable tag: 1.0.12
 */
 /*  Copyright 2009  Oliver Storm, Tom Klingenberg
 
@@ -52,9 +52,9 @@ class lingulabLivePlugin
 	/*
 	 * magic numbers
 	 */
-	private $_homepageUrl = 'http://textkritik.lingulab.de/'; # URI of homepage
+	private $_homepageUrl = 'http://live.lingulab.de/'; # URI of homepage
 	
-	private $_version     = '1.0.11'; # plugin version
+	private $_version     = '1.0.12'; # plugin version
 	
 	/**
 	 * bootstrap
