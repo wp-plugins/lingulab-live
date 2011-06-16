@@ -3,7 +3,7 @@ Contributors: LinguLab, Oliver Storm, Tom Klingenberg
 Donate link: http://live.lingulab.de
 Tags: lingulab, textkritik, SEO
 Requires at least: 2.8
-Tested up to: 2.9.2
+Tested up to: 3.1.3
 Stable tag: 1.0.12
 LinguLab Live Wordpress Plugin ermöglicht die Messung der Textqualität
 
