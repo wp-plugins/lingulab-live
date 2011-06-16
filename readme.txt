@@ -46,6 +46,9 @@ oder besuchen Sie unser Blog: http://textkritik.lingulab.de/category/so-funktion
 Besuchen Sie unser Blog: http://textkritik.lingulab.de/category/so-funktionierts/
 
 == Changelog ==
+= 1.0.12 =
+* Webservice URL changed
+
 = 1.0.11 =
 * Added PluginId
 
