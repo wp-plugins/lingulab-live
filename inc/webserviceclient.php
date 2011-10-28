@@ -157,6 +157,35 @@ class lingulabLiveWebserviceClient
 		return $configs;
 	}
 	
+	public function getLanguages(){
+		$authKey = $this->getAuthKey();
+		$result = $this->_service->GetLanguages($authKey);
+		$code   = $result['ErrorCode'];
+		
+		if ( 0 != $code )
+		// we have an error
+		{
+			throw new lingulabLiveWebserviceClient_Exception(sprintf('Error while getting language data: #%d - %s', $code, $result['ErrorMessage']), 12000 + $code);
+		}
+		
+		// normalize configurations (because of nusoap style?!)
+		$data = $result['Languages']['LanguageEntry'];
+		$langs = array();
+		
+		if ( isset($data['LanguageKey']) )
+		// single entry
+		{
+			$langs[] = $data;
+		} 
+		else
+		// multiple entries 
+		{
+			$langs = $data;
+		}
+		
+		return $langs;
+	}
+	
 
 	/**
 	 * login

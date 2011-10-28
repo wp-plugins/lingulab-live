@@ -3,8 +3,8 @@ Contributors: LinguLab, Oliver Storm, Tom Klingenberg
 Donate link: http://live.lingulab.de
 Tags: lingulab, textkritik, SEO
 Requires at least: 2.8
-Tested up to: 3.1.3
-Stable tag: 1.0.12
+Tested up to: 3.2.1
+Stable tag: 1.0.13
 LinguLab Live Wordpress Plugin ermöglicht die Messung der Textqualität
 
 == Description ==
@@ -46,6 +46,10 @@ oder besuchen Sie unser Blog: http://live.lingulab.de/content/deu/Blog-Neuigkeit
 Besuchen Sie unser Blog: http://live.lingulab.de/content/deu/Produkte/Plug-ins-Add-Ins/Plugin_SEO_Wordpress.htm
 
 == Changelog ==
+= 1.0.13 =
+* Added Support for multiple Languages
+* Changed Webservice-URL
+
 = 1.0.12 =
 * Webservice URL changed: now supports SSL encryption (default)
 

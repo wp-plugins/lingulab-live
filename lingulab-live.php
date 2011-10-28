@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: LinguLab Live 
-Plugin URI: http://www.lingulab.de
+Plugin URI: http://live.lingulab.de
 Description: LinguLab Live Wordpress Plugin ermöglicht die Messung der Textqualität
 Author: LinguLab GmbH
-Version: 1.0.12
-Author URI: http://www.lingulab.de
+Version: 1.0.13
+Author URI: http://live.lingulab.de
 Min WP Version: 2.8
-Stable tag: 1.0.12
+Stable tag: 1.0.13
 */
-/*  Copyright 2009  Oliver Storm, Tom Klingenberg
+/*  Copyright 2009 - 2011  Oliver Storm, Tom Klingenberg
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -399,10 +399,12 @@ class lingulabLivePlugin
 		$kw2        = isset($_POST['kw2']) ? stripslashes($_POST['kw2']) : '';
 		$kw3        = isset($_POST['kw3']) ? stripslashes($_POST['kw3']) : '';
 		$configType = isset($_POST['lingulab-mode']) ? stripslashes($_POST['lingulab-mode']) : $configs[0]["Id"];
+		$lang = isset($_POST['lang']) ? stripslashes($_POST['lang']) : "de";
 		
 		$inputData = array(
 			'Text'            => $text, 
 			'ConfigurationId' => $configType,
+			'LanguageKey'     => $lang,
 			'SearchKeyword1'  => $kw1, 
 			'SearchKeyword2'  => $kw2, 
 			'SearchKeyword3'  => $kw3
@@ -492,6 +494,7 @@ class lingulabLivePlugin
 		
 		try {
 			$configs = $client->getConfigurations();
+			$langs = $client->getLanguages();
 ?>
 	<p>
 		<strong>Bitte wählen Sie die entsprechende Textgattung:</strong>
@@ -510,6 +513,26 @@ class lingulabLivePlugin
 	
 ?>
 	</select>
+	
+	<p>
+		<strong>Bitte wählen Sie die Sprache des Textes:</strong>
+	</p>
+	
+	<select name="lingulab-lang" id="lingulab-lang" class="dropdown mode">
+<?php
+
+	$i = 0;	
+	foreach( $langs as $lang )
+	{
+		$extra = (0 == ++$i) ? 'selected="selected" ' : ''; # select first entry
+		$value = $lang['LanguageKey'];
+		$name  = $lang['Name'];				
+		printf('<option %s value="%s">%s</option>', $extra, htmlspecialchars($value), htmlspecialchars($name));		
+	}
+	
+?>
+	</select>
+	
 <?php
 	
 		} catch(lingulabLiveWebserviceClient_Exception $e) {

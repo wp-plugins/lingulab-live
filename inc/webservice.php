@@ -95,10 +95,16 @@ class lingulabLiveWebservice
 	 * @param string $authKey
 	 * @return array webservice result
 	 */
-	public function GetConfigurations($authKey)
+	public function GetConfigurations($authKey, $lang = "de")
 	{
-		$result = $this->_stdCall('GetConfigurations', array(array('authenticationKey' => $authKey)));
+		$result = $this->_stdCall('GetConfigurations', array(array('authenticationKey' => $authKey, 'languageKey' => $lang)));
 		return $result['GetConfigurationsResult'];		
+	}
+
+	public function GetLanguages($authKey)
+	{
+		$result = $this->_stdCall('GetLanguages', array(array('authenticationKey' => $authKey)));
+		return $result['GetLanguagesResult'];		
 	}
 	
 	/**

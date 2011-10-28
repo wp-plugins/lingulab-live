@@ -100,10 +100,12 @@ jQuery(document).ready(function()
         var kw2      = jQuery('#lingulab-kw2').val();
         var kw3      = jQuery('#lingulab-kw3').val();
 		var mode     = jQuery('#lingulab-mode').val();
+		var lang     = jQuery('#lingulab-lang').val();
 				
 		//build data string
 		var data = 'text=' + encodeURIComponent(text)
 					+ '&mode=' + encodeURIComponent(mode)
+					+ '&lang=' + encodeURIComponent(lang)
  	                + '&kw1='  + encodeURIComponent(kw1)
                     + '&kw2='  + encodeURIComponent(kw2)
     		        + '&kw3='  + encodeURIComponent(kw3)
