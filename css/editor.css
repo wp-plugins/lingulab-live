@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+/**
+ * LinguLab Live  Meta Box (CSS)
+ * 
+ * @see LinguLab Live (WordPress Plugin)
+ * @cssdoc version 1.0-pre
+ * @author Tom Klingenberg
+ */
+ 
+/**
+ * postbox design
+ *
+ * @section postbox
+ */ 
+#lingulab {}
+	#lingulab .inside {-padding: 10px;}	
+	#lingulab .ajax-loading {display: none; vertical-align: middle;} /* ajax loader is hidden per default */
+	#lingulab-keywordsdiv, 
+	#lingulab-resultdiv,
+	#lingulab-getcontentdiv {display: none;} /* keywords and result incl. the getcontentdiv are hidden per default */	
+	#lingulab .trenner { border-top: 1px dotted #666; height: 1px; margin: 5px 0 10px 0; }
+	#lingulab-keywordsdiv input { margin-right: 10px;}
+	#lingulab-keywordsdiv label { margin-right: 3px; }
+	
+	#lingulab div.starshtml {padding:0 0 1em 0;}
+	#lingulab div.showdetailsbutton {padding:0 0 4px 0;}
+	
